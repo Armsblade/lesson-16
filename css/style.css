@@ -1,0 +1,216 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    color: #FFFFFF
+}
+
+
+
+.container {
+    position: relative;
+    width: 1110px;
+    margin: 0 auto;
+    background-color: #4737FF;
+    padding: 60px 60px 60px 125px;
+    z-index: 1;
+}
+
+
+h1,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    height: 126px;
+    /* background-color: deeppink; */
+    width: 547px;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 4px;
+    text-transform: uppercase;   
+    /* background-color: darkmagenta; */    
+}
+
+p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.8;
+    margin-right: 95px;
+    /* background-color: darkslategrey; */
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+    border: 0;
+}
+
+.background::after {
+    position: absolute;
+    top: -750px;
+    left: -250px;
+    font-size: 2000px;
+    font-weight: 600;
+    font-family: sans-serif;
+    content: 'G';
+    color: white;
+    opacity: .2;
+    z-index: -1;
+}
+
+.flex-container{
+    display: flex;
+    width: 1110px;   
+    /* background-color: crimson; */
+}
+
+.logo-nav {
+    display: flex;
+    align-content: space-between;
+    /* background-color: brown;   */
+}
+
+.logo:hover {
+    background-color: chartreuse;
+    border-radius: 15%;
+    color: rgb(224, 5, 224);
+}
+
+.navigation {
+    width: 354px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque;  */
+    margin-left: 681px;  
+}
+
+
+
+.menu-nav:hover {
+   color: rgb(111, 247, 0); 
+   border: 1px solid darkblue;
+   content: '%'; 
+}
+
+.flex-container-1 {
+    display: flex;
+    margin-top: 169px;
+}
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    word-wrap: nowrap;
+}
+
+.button-flex {
+    margin:  -200px 0 0 0;
+    display: flex;
+    /* background-color: fuchsia; */
+}
+
+.button, .button-1 {
+    padding: 17px 9px 17px 9px;
+    /* background-color: green; */
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFF;
+    cursor: pointer;
+} 
+
+.button:active, .button-1:active {
+    border-radius: 10px;
+    
+}
+
+.button-1 {
+    margin-left: 30px;
+    
+}
+
+.button:hover, .button-1:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.footer-logo {
+    width: 112px;
+    margin: 241px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+}
+
+.footer-logo:hover {
+    border: 1px solid #FFFF;
+}
+
+.Icon:hover {
+    border: 2px solid #fd11fdde;
+}
+
+.Icon:active {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.flex-foto {
+    display: flex;
+    margin-left: 24px;
+}
+
+.foto {
+    margin-top: -100px;
+    box-sizing: content-box;
+    
+}
+
+.video-box {
+    position: absolute;
+    top: 480px;
+    left: 980px;
+    background-color: #ffff;
+    z-index: 2;
+    color: black;
+    cursor: pointer;
+}
+
+.video {
+    font-size: 32px;
+    padding: 15px;
+}
+
+.video-box:hover {
+    border: 2px solid chartreuse;
+    border-radius: 30%;
+    background-color:black ;
+    z-index: 2;
+    color: #ffff;
+}
+
+.video-box:active {
+       border: 2px solid chartreuse;
+    border-radius: 30%;
+    background-color:rgb(243, 232, 232) ;
+    z-index: 2;
+    color: #cc0000;
+    
+}
